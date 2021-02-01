@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "14.15.4"
+  },
   "scripts": {
     "build": "sucrase ./src -d ./dist --trasnforms imports",
     "start": "node -r dotenv/config ./dist/index.js",
