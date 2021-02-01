@@ -7,7 +7,7 @@
     "node": "14.15.4"
   },
   "scripts": {
-    "build": "sucrase ./src -d ./dist --trasnforms imports",
+    "build": "sucrase ./src -d ./dist --transforms imports",
     "start": "node -r dotenv/config ./dist/index.js",
     "dev": "nodemon --inspect src/index.js"
   },
